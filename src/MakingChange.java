@@ -7,11 +7,29 @@
  */
 
 public class MakingChange {
-    /**
-     * TODO: Complete this function, countWays(), to return the number of ways to make change
-     *  for any given total with any given set of coins.
-     */
     public static long countWays(int target, int[] coins) {
-        return 0;
+        long[][] memo = new long[target + 1][coins.length];
+
+        return count(target, coins.length-1, coins, memo);
+    }
+
+    // Recursive function
+    public static long count(int sum, int index, int[] coins, long[][] memo) {
+        // Base cases
+        if (sum == 0)
+            return 1;
+
+        if (index < 0)
+            return 0;
+
+        if (sum < 0)
+            return 0;
+
+        if (memo[sum][index] == 0) {
+            memo[sum][index] = count(sum - coins[index], index, coins, memo) + count(sum, index - 1, coins, memo);
+            return memo[sum][index];
+        }
+
+        return memo[sum][index];
     }
 }

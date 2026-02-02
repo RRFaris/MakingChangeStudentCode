@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf08351e-8001-407c-880c-49b47a0a4156" name="Changes" comment="Finished V1">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bf08351e-8001-407c-880c-49b47a0a4156" name="Changes" comment="Finished a working version of recursion + memoization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WORK_LOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/WORK_LOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MakingChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MakingChange.java" afterDir="false" />
@@ -52,7 +51,12 @@
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.MakingChangeTest.executor": "Run",
+    "JUnit.MakingChangeTest.testCorrectLarge.executor": "Run",
+    "JUnit.MakingChangeTest.testCorrectLargest.executor": "Run",
     "JUnit.MakingChangeTest.testCorrectSmall.executor": "Run",
+    "JUnit.MakingChangeTest.testEfficient.executor": "Run",
+    "JUnit.MakingChangeTest.testEfficientLarge.executor": "Run",
+    "JUnit.MakingChangeTest.testEfficientLargest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -62,22 +66,21 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MakingChangeTest.testEfficientLargest">
-    <configuration name="MakingChangeTest.testCorrectLarge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MakingChangeTest">
+    <configuration name="MakingChangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Making Change Student Code" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MakingChangeTest" />
-      <option name="METHOD_NAME" value="testCorrectLarge" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakingChangeTest.testCorrectLargest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MakingChangeTest.testCorrectSmall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Making Change Student Code" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MakingChangeTest" />
-      <option name="METHOD_NAME" value="testCorrectLargest" />
+      <option name="METHOD_NAME" value="testCorrectSmall" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MakingChangeTest" />
+        <item itemvalue="JUnit.MakingChangeTest.testCorrectSmall" />
         <item itemvalue="JUnit.MakingChangeTest.testEfficientLargest" />
         <item itemvalue="JUnit.MakingChangeTest.testEfficientLarge" />
         <item itemvalue="JUnit.MakingChangeTest.testEfficient" />
-        <item itemvalue="JUnit.MakingChangeTest.testCorrectLargest" />
-        <item itemvalue="JUnit.MakingChangeTest.testCorrectLarge" />
       </list>
     </recent_temporary>
   </component>
@@ -140,11 +143,20 @@
       <option name="project" value="LOCAL" />
       <updated>1769399152886</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished a working version of recursion + memoization">
+      <option name="closed" value="true" />
+      <created>1769991598413</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769991598413</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished V1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished V1" />
+    <MESSAGE value="Finished a working version of recursion + memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished a working version of recursion + memoization" />
   </component>
 </project>
